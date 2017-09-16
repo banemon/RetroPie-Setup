@@ -89,7 +89,7 @@ function updatescript_setup()
     printHeading "Fetching latest version of the RetroPie Setup Script."
     pushd "$scriptdir" >/dev/null
     if [[ ! -d ".git" ]]; then
-        printMsgs "dialog" "Cannot find directory '.git'. Please clone the RetroPie Setup script via 'git clone https://github.com/RetroPie/RetroPie-Setup.git'"
+        printMsgs "dialog" "Cannot find directory '.git'. Please clone the RetroPie Setup script via 'git clone https://github.com/retr0rangepi/RetroPie-Setup.git'"
         popd >/dev/null
         return 1
     fi
